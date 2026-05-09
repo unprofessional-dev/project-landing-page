@@ -91,22 +91,52 @@
       <div class="straight-line"><h3 class="fs-xl fw-medium">Zephyr</h3></div>
     </article>
 
-    <article class="contact clr-dark flex" style="grid-area: box-6;">
-      <div class="flex" style="justify-content: space-between;">
-        <p>Have some<br>questions?</p>
+    <article class="contact clr-dark flex" style="grid-area: box-6">
+      <div class="flex" style="justify-content: space-between">
+        <p>Have some<br />questions?</p>
         <button type="submit"><img src="arrow-icon.svg" alt="" /></button>
       </div>
       <form class="flex form">
+        <input
+          type="text"
+          name="firstname"
+          class="clr-light"
+          id="firstname-input"
+          placeholder="Name"
+          required
+        />
 
-        <input type="text" name="firstname" class="clr-light" id="firstname-input" placeholder="Name" required>
-      
-        <input type="email" name="email" class="clr-light" id="email-input" placeholder="Email" required>
-        
-        <textarea name="message" class="clr-light" id="message-input" placeholder="Message..." required></textarea>
+        <input
+          type="email"
+          name="email"
+          class="clr-light"
+          id="email-input"
+          placeholder="Email"
+          required
+        />
 
+        <textarea
+          name="message"
+          class="clr-light"
+          id="message-input"
+          placeholder="Message..."
+          required
+        ></textarea>
       </form>
       <div>
         <h2 class="fs-xxl">Contact Me</h2>
+      </div>
+    </article>
+    <article class="socials clr-light" style="grid-area: box-7">
+      <div>
+        <ul
+          class="fs-md fw-light flex"
+          style="justify-content: space-between; list-style: none"
+        >
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>LinkedIn</li>
+        </ul>
       </div>
     </article>
   </body>
